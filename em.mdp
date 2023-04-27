@@ -40,9 +40,9 @@ energygrps               =
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
 tcoupl                   = No
-tc-grps                  = Water non-water
-tau-t                    = 0.1 0.1
-ref-t                    = 300 300
+tc-grps                  = system
+tau-t                    = 0.1 
+ref-t                    = 300 
 
 
 ; SIMULATED ANNEALING  
@@ -56,7 +56,7 @@ annealing-time           =                 ; es. 50 100 150 50 100 150
 annealing-temp           =                 ; es. 300 400 500 300 400 500
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no. ; or yes
+gen-vel                  = no
 gen-temp                 = 300
 gen-seed                 = -1
 
